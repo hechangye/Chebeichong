@@ -1,0 +1,14 @@
+DEMfile                  example.asc
+resroot                  example
+dirroot                  example
+sim_time                 10800
+initial_tstep            1.0
+massint                  3600
+saveint                  3600
+fpfric          0.05
+FV1
+gravity         9.81
+bdyfile         example.bdy
+bcifile         example.bci
+elevoff
+voutput
